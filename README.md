@@ -37,6 +37,9 @@ O sistema não tem update, e para adicionar novos resgistros ao banco segue essa
 
 ### Iniciar Frontend | Pasta ./web
 
+* yarn install 
+* yarn start
+
 Para fazer busca, digite o nome e tecla ENTER
 
 No título da tabela tem um botão, use para reiniciar a tabela.
