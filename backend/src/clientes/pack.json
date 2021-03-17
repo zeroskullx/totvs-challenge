@@ -1,0 +1,52 @@
+[
+    {
+        "nome": "José Silva",
+        "desde": "2019-04-04",
+        "valor": "100000"
+    },
+    {
+        "nome": "José Silva II",
+        "desde": "2019-06-04",
+        "valor": "200000"
+    },
+    {
+        "nome": "Maria Reno",
+        "desde": "2018-01-08",
+        "valor": "3200000"
+    },
+    {
+        "nome": "Maria Silva",
+        "desde": "2017-09-01",
+        "valor": "1010"
+    },
+    {
+        "nome": "George o Rei da Floresta",
+        "desde": "2014-10-01",
+        "valor": "50000"
+    },
+    {
+        "nome": "Lara Croft II",
+        "desde": "2018-01-06",
+        "valor": "22000000"
+    },
+    {
+        "nome": "Manuela Lorussa",
+        "desde": "2017-10-27",
+        "valor": "22300"
+    },
+    {
+        "nome": "Adauto Alves",
+        "desde": "2020-09-22",
+        "valor": "225000"
+    },
+    {
+        "nome": "Pedro Zambele",
+        "desde": "2021-07-05",
+        "valor": "100000"
+    },
+    {
+        "nome": "Chico Nogueira",
+        "desde": "2011-05-28",
+        "valor": "123000"
+    }
+]

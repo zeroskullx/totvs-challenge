@@ -1,0 +1,37 @@
+version: "3.1"
+
+services:
+  db:
+    image: mongo:4.2
+    container_name: db
+    restart: always
+    ports:
+      - ${DB_PORT}:27017    
+    environment: 
+      MONGO_INITDB_DATABASE: ${DB_NAME}
+      MONGO_INITDB_ROOT_USERNAME: ${DB_USER}
+      MONGO_INITDB_ROOT_PASSWORD: ${DB_PASS}
+
+  api:
+    image: node:latest
+    container_name: api
+    restart: always
+    build: .
+    command: yarn dev
+    env_file: 
+      - .env
+    volumes: 
+      - .:/usr/server
+    working_dir: /usr/server
+    depends_on:
+      - db
+    links:
+      - db
+    ports:
+      - ${SERVER_PORT}:3000
+    logging: 
+      driver: "json-file"
+      options: 
+        max-size: "10m"
+        max-file: "5"
+
