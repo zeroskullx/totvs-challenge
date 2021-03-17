@@ -15,9 +15,10 @@ Configure o .INV:
 - 3000 : server
 - 27017 : Mongo
 
-Instale todas as dependências primeiro: yarn install || npm install
-$ docker-composer build
-$ docker-composer up
+Instale todas as dependências primeiro: 
+* yarn install || npm install
+* docker-composer build
+* docker-composer up
 
 ## Server
 
