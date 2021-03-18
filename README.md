@@ -7,7 +7,9 @@
 - NODE.JS
 - REACT.JS
 
-## baixe os arquivos
+## Server
+
+### baixe os arquivos
 
 Configure o .INV:
 
@@ -19,8 +21,6 @@ Instale todas as dependências primeiro:
 * yarn install || npm install
 * docker-composer build
 * docker-composer up
-
-## Server
 
 ### Lista Fake:
 
