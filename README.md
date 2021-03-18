@@ -41,7 +41,7 @@ O sistema não tem update, e para adicionar novos resgistros ao banco segue essa
 * yarn install 
 * yarn start
 
-Para fazer busca, digite o nome e tecla ENTER
+Para fazer busca, digite o nome e tecle ENTER
 
 No título da tabela tem um botão, use para reiniciar a tabela.
 
